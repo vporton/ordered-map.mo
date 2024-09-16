@@ -5,3 +5,6 @@ description = "HashMap that also stores the order of inserted entries"
 repository = "https://github.com/vporton/ordered-map.mo"
 keywords = [ "HashMap", "ordered", "order" ]
 license = "MIT"
+
+[dependencies]
+base = "0.12.1"

@@ -1,9 +1,5 @@
 {
   "canisters": {
-    "ordered-map-backend": {
-      "main": "src/ordered-map-backend/main.mo",
-      "type": "motoko"
-    }
   },
   "defaults": {
     "build": {
