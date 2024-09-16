@@ -1,1 +1,1 @@
-import Ordered "../src/ordered-map"; // check syntax
+import Ordered "../src"; // check syntax
