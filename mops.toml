@@ -1,0 +1,7 @@
+[package]
+name = "ordered-map"
+version = "1.0.0"
+description = "HashMap that also stores the order of inserted entries"
+repository = "https://github.com/vporton/ordered-map.mo"
+keywords = [ "HashMap", "ordered", "order" ]
+license = "MIT"
