@@ -44,6 +44,24 @@ module {
                 case null { Debug.trap("ordered-map: programming error") };
             });
         };
+
+        public func removeLast() : ?(K, V) {
+            let ?key = list.removeLast() else {
+                return null;
+            };
+            let ?value = m.get(key) else {
+                Debug.trap("ordered-map: programming error");
+            };
+            ?(key, value);
+        };
+
+        public func remove(index: Nat) : ?(K, V) {
+            let key = list.remove(index);
+            let ?value = m.get(key) else {
+                Debug.trap("ordered-map: programming error");
+            };
+            ?(key, value);
+        };
     };
 
     // TODO
