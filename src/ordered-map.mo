@@ -50,7 +50,7 @@ module {
     // func clone<K, V>(map: OrderedHashMap<K, V>, keyEq : (K, K) -> Bool, keyHash : K -> Hash.Hash) : OrderedHashMap<K, V> = {
     // };
 
-    func fromIter<K, V>(iter : Iter.Iter<(K, V)>, initCapacity : Nat, keyEq : (K, K) -> Bool, keyHash : K -> Hash.Hash)
+    public func fromIter<K, V>(iter : Iter.Iter<(K, V)>, initCapacity : Nat, keyEq : (K, K) -> Bool, keyHash : K -> Hash.Hash)
         : OrderedHashMap<K, V>
     {
         let t = OrderedHashMap<K, V>(initCapacity, keyEq, keyHash);
