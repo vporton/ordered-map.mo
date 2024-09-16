@@ -1,6 +1,6 @@
 [package]
 name = "ordered-map"
-version = "0.1.1"
+version = "0.2.0"
 description = "HashMap that also stores the order of inserted entries"
 repository = "https://github.com/vporton/ordered-map.mo"
 keywords = [ "hashmap", "hash-map", "ordered", "order" ]
